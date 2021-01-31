@@ -43,7 +43,7 @@ body {
 }
 
 .main img {
-    width: 20px;
+    width: 25px;
 }
 
 .profile {
@@ -54,7 +54,7 @@ body {
 .profile img {
     margin-left: auto;
     margin-right: auto;
-    width: 15%;
+    width: 20%;
     display: block;
     border-radius: 100%;
 }
