@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    background: linear-gradient(231deg, #000000, #383838);
+    background-size: 400% 400%;
+
+    -webkit-animation: gradient 24s ease infinite;
+    -moz-animation: gradient 24s ease infinite;
+    animation: gradient 24s ease infinite;
+    font-family: 'JetBrains Mono';
+}
+
+.main {
+    background-color: black;
+    color: white;
+    margin: 5% 15%;
+    padding: 3%;
+
+    border-radius: 10px;
+}
+
+.main h1 {
+    font-size: 75px;
+    text-align: center;
+}
+
+.main p {
+    font-size: 25px;
+    text-align: center;
+    padding: 0 10%;
+}
+
+.main ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main ul li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.main img {
+    width: 20px;
+}
+
+.profile {
+    background: black;
+    padding: 2.5%;
+}
+
+.profile img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    display: block;
+    border-radius: 100%;
+}
+
+@-webkit-keyframes gradient {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@-moz-keyframes gradient {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+@keyframes gradient {
+    0%{background-position:0% 88%}
+    50%{background-position:100% 13%}
+    100%{background-position:0% 88%}
+}
+    
